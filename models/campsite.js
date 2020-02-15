@@ -21,7 +21,6 @@ const commentSchema = new Schema({
 }, {
     timestamps: true
 });
-
 const campsiteSchema = new Schema({
     name: {
         type: String,
